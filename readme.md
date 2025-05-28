@@ -20,20 +20,20 @@ Here is the current structure of the project folder.
 - `00_technical_sheets/`: Component datasheets and technical references
 - `01_mechanical_design/`: CAD files and 3D models
 - `02_electronics/`: Circuit diagrams and PCB layouts
-- `03_software/`: Firmware and control code (e.g., Arduino)
+- `03_software/`: Firmware and control code (e.g., STM)
 - `04_tests_and_results/`: Test reports, measurements, photos, videos
 - `05_documentation/`: Generated documentation and user guides
 - `assets/`: Visual elements used in the README and documentation
 
-## Technical Specifications (WIP)
+## Mid-term Objectives
 
-Initial target specifications for the hydro propulsor:
+    [x] Create a solid and flexible project structure
+    [x] Draft an initial specifications document
+    [ ] Mechanics:
+        [ ] Find a solution for the protective and impermeable casing
+        [ ] Run an initial mechanical test
+    [ ] Electronics:
+        [ ] Choose a propulsion method
+        [ ] Perform an initial motor control test
+    [ ] Build the first working prototype of propulsion
 
-- Portability: Lightweight and compact design, suitable for transport and solo use
-- Weight: The device's density should match that of water (neutral buoyancy)
-- Thrust: Minimum of 30 Newtons per arm, with a target of 50N for optimal performance
-- Water resistance: Operational at depths up to 5 meters
-- Autonomy: At least 30 minutes of continuous operation under standard usage
-
-These specifications represent an initial vision of the product's capabilities.
-They are highly interdependent (e.g., power vs. autonomy) and will be reviewed after the ideation phase and before each new development stage.
