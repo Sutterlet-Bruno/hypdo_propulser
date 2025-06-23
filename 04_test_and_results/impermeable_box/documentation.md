@@ -21,6 +21,15 @@ The materials selected for this study are:
 
 PETG is generally known for its better water resistance compared to PLA and is a good candidate for underwater or damp environments.
 
+Many variable can be change in order to check for any improovement if needed :
+
+- **Wall width** : adding more layers of material or changing the infill could hellp block water
+- **Printing temperature** : increasing themperature could help decrease porosity
+- **Printing speed** :
+- **Post processing** :
+    - dichtol (Diamant)
+    - polymer
+
 ## Test Methodology
 
 The waterproofness test will initially be conducted under static, submerged conditions.
@@ -28,9 +37,9 @@ The waterproofness test will initially be conducted under static, submerged cond
 A test box will be designed and 3D-printed with a hook or attachment point to allow easy suspension. The box will be fully submerged in water and left underwater for **24 hours**.
 
 ### Test Setup:
-- The box will be securely fixed to prevent floating or movement during the test.
-- Paper or absorbent material will be placed inside the box to help detect any water ingress.
-- After 24 hours, the box will be opened and inspected for any signs of leakage or internal moisture.
+- The box will be reviously wheight befor the experiment.
+- The box will be securely fixed 10cm underwater to prevent floating or movement during the test.
+- The box will be wheight asecond time to check for any increase in wheight
 
 ### Visual Reference:
 ![Measurement scheme](./pictures/measurement_scheme.drawio.png)
