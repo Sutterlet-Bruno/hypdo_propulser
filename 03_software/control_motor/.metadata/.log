@@ -1,0 +1,36 @@
+!SESSION 2025-07-25 21:17:30.911 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_CH
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-25 21:20:10.100
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-25 21:20:10.100
+!MESSAGE Log4j2 initialized with config file D:\Documents\my_projects\projet_hydropropulsion\03_software\control_motor\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-25 21:20:12.280
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-25 21:24:31.365
+!MESSAGE Indexed 'dcbl_firmware' (17 sources, 78 headers) in 1.82 sec: 3,636 declarations; 13,164 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2025-07-25 21:24:51.754
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\Bruno\AppData\Local\Temp\STM32CubeIDE_699a3a49-493b-40a4-a23a-93c026f60921
+!SESSION 2025-07-25 21:24:56.002 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_CH
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/Documents/my_projects/projet_hydropropulsion/03_software/control_motor/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-25 21:25:00.887
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-25 21:25:00.887
+!MESSAGE Log4j2 initialized with config file D:\Documents\my_projects\projet_hydropropulsion\03_software\control_motor\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-25 21:25:04.874
+!MESSAGE Started RMI Server, listening on port 41337
