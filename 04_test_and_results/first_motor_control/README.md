@@ -20,14 +20,23 @@ The goal of this prototype is to create an initial architecture for motor contro
 ## Mid-term Objectives
 
 - [ ] **Firmware**
+<<<<<<< HEAD
     - [ ] Acquire microcontrollers (MCUs)
     - [ ] Connect and run initial "blink" code
+=======
+    - [x] Acquire microcontrollers (MCUs)
+    - [x] Connect and run initial "blink" code
+>>>>>>> a8b1d8b2fdccfc2e83e98bedac166d417f6806e7
     - [ ] Develop first code iteration
     - [ ] Validate timing accuracy
     - [ ] Creat Dedicated library
 
 - [ ] **Electrical Design**
+<<<<<<< HEAD
     - [ ] Define initial architecture
+=======
+    - [x] Define initial architecture
+>>>>>>> a8b1d8b2fdccfc2e83e98bedac166d417f6806e7
     - [ ] Implement safety features
     - [ ] Generate Bill of Materials (BOM)
     - [ ] Assemble first board (veroboard)

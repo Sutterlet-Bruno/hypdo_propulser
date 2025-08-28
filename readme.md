@@ -27,13 +27,23 @@ Here is the current structure of the project folder.
 
 ## Mid-term Objectives
 
-    [x] Create a solid and flexible project structure
-    [x] Draft an initial specifications document
-    [ ] Mechanics:
-        [x] Choose a solution for the protective and impermeable casing
-        [ ] Run an initial mechanical test -> in progress 04
-    [ ] Electronics:
-        [ ] Choose a propulsion method
-        [ ] Perform an initial motor control test
-    [ ] Build the first working prototype of propulsion
+- [x] Create a solid and flexible project structure
+- [x] Draft an initial specifications document
+- [ ] Mechanics:
+    - [x] Choose a solution for the protective and impermeable casing
+    - [ ] Run an initial impermeable test -> in progress 04
+- [ ] Electronics:
+    - [x] Choose a propulsion method
+    - [ ] Perform an initial motor control test
+    - [ ] Create first controler
+- [ ] Build the first working prototype of propulsion
 
+## Project Breakdown
+
+![Schéma bloque de la décomposition du projet](./98_pictures/project_breackdown.drawio.png)
+
+Different parts :
+
+- **Alimentation** : Controle battery capacity and generate 3.3V for Micro Controlers
+- **Motor controler** : Driver for DC brushless motor
+- **HMI** :  Human Machine Interface
