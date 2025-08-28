@@ -30,8 +30,8 @@ Here is the current structure of the project folder.
     [x] Create a solid and flexible project structure
     [x] Draft an initial specifications document
     [ ] Mechanics:
-        [ ] Find a solution for the protective and impermeable casing
-        [ ] Run an initial mechanical test
+        [x] Choose a solution for the protective and impermeable casing
+        [ ] Run an initial mechanical test -> in progress 04
     [ ] Electronics:
         [ ] Choose a propulsion method
         [ ] Perform an initial motor control test
