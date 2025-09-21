@@ -20,23 +20,14 @@ The goal of this prototype is to create an initial architecture for motor contro
 ## Mid-term Objectives
 
 - [ ] **Firmware**
-<<<<<<< HEAD
-    - [ ] Acquire microcontrollers (MCUs)
-    - [ ] Connect and run initial "blink" code
-=======
     - [x] Acquire microcontrollers (MCUs)
     - [x] Connect and run initial "blink" code
->>>>>>> a8b1d8b2fdccfc2e83e98bedac166d417f6806e7
     - [ ] Develop first code iteration
     - [ ] Validate timing accuracy
     - [ ] Creat Dedicated library
 
 - [ ] **Electrical Design**
-<<<<<<< HEAD
-    - [ ] Define initial architecture
-=======
     - [x] Define initial architecture
->>>>>>> a8b1d8b2fdccfc2e83e98bedac166d417f6806e7
     - [ ] Implement safety features
     - [ ] Generate Bill of Materials (BOM)
     - [ ] Assemble first board (veroboard)
@@ -106,7 +97,15 @@ Let the six switches be:
 
 ### Firmware
 
-(Here you can describe your firmware architecture or link to relevant code.)
+The firmware will be composed of a main programm that manage all the different parts of the controler : 
+
+ - Transistors output
+ - Command input
+ - Feedback ?
+
+The transistor output is managed by a state machine : 
+
+
 
 ## Tests
 
