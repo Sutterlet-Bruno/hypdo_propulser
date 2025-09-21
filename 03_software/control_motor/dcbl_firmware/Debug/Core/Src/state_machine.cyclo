@@ -1,0 +1,3 @@
+../Core/Src/state_machine.c:37:20:all_transistors_off	1
+../Core/Src/state_machine.c:47:20:turn_on	1
+../Core/Src/state_machine.c:52:8:state_machine	11

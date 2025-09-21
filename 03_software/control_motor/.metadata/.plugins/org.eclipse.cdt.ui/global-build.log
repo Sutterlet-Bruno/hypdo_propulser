@@ -1,0 +1,19 @@
+11:12:32 **** Incremental Build of configuration Debug for project dcbl_firmware ****
+make -j16 all 
+arm-none-eabi-gcc -o "dcbl_firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Documents\my_projects\projet_hydropropulsion\03_software\control_motor\dcbl_firmware\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dcbl_firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dcbl_firmware.elf
+ 
+arm-none-eabi-size  dcbl_firmware.elf 
+arm-none-eabi-objdump -h -S dcbl_firmware.elf  > "dcbl_firmware.list"
+arm-none-eabi-objcopy  -O ihex dcbl_firmware.elf  "dcbl_firmware.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5056	     12	   1580	   6648	   19f8	dcbl_firmware.elf
+arm-none-eabi-objcopy  -O binary dcbl_firmware.elf  "dcbl_firmware.bin"
+Finished building: default.size.stdout
+ 
+Finished building: dcbl_firmware.list
+ 
+Finished building: dcbl_firmware.bin
+Finished building: dcbl_firmware.hex
+ 
+ 
